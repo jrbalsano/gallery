@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Photo Gallery - jrb2194</title>
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/backbone-min.js"></script>
+    <script type="text/javascript" src="js/dollar.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+  </head>
+  <body>
+    <div id="gallery" class="container">
+      <div class="row">
+        <div class="span9">
+          <h1>Your Photo Gallery</h1>
+          <div id="gallery">
+            <ul id="image-list">
+              <li>
+              <img src="img/1.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/2.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/3.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/4.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/5.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/6.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/7.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/8.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/9.jpg" class="thumb" />
+              </li>
+              <li>
+              <img src="img/10.jpg" class="thumb" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span3">
+          <br /> <br />
+          Welcome to your gesture navigated photo gallery. To zoom in on any one image, click and drag a "z" over that image.
+          <br /><br />
+          <div style="display:none" class="alert"></div>
+        </div>
+      </div>
+    </div>
+    <div id="carousel" class="container" style="display: none;">
+      <div class="row">
+        <div class="span9">
+          <div id="big-image-container">
+            <h1>Your Photo Gallery</h1>
+            <img id="big-image" src="img/1.jpg" />
+          </div>
+        </div>
+        <div class="span3">
+          <br /> <br />
+          This is the zoom display. <ul>
+            <li>To zoom out, click and drag a "z" over the image.</li>
+            <li> To magnify the image, click and drag an "M" over the image. Draw another "M" to de-magnify".</li>
+            <li> To view the next image, click and drag a rightwards arc.</li>
+            <li> To view the previous image, click and drag a leftwards arc.</li>
+            <li> Add a loop to your arc to skip two images at a time.</li>
+          </ul>
+          <br /><br />
+          <div style="display:none" class="alert"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

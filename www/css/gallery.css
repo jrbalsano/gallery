@@ -1,0 +1,21 @@
+#gallery img {
+  width: 200px;
+  padding: 15px;
+}
+#gallery img:hover {
+  width: 210px;
+  padding: 10px;
+}
+div#gallery ul#image-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#image-list li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#carousel {
+  overflow: hidden
+}
